@@ -1,4 +1,4 @@
-# Paimon's journey: a jumpastart-daydream game
+# Paimon's journey: a jumpstart-daydream game
 
 ![image](/plush.png)
 
