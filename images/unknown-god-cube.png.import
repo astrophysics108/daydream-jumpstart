@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dhyuewnqm856o"
-path="res://.godot/imported/Screenshot 2025-08-05 143538.png-a2f1ffc1f085f94fed1e2d8eaacc3e89.ctex"
+uid="uid://bvoratpr1jlch"
+path="res://.godot/imported/unknown-god-cube.png-f98aab666900a76ef37e9fa5b6f9aaa4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/Screenshot 2025-08-05 143538.png"
-dest_files=["res://.godot/imported/Screenshot 2025-08-05 143538.png-a2f1ffc1f085f94fed1e2d8eaacc3e89.ctex"]
+source_file="res://images/unknown-god-cube.png"
+dest_files=["res://.godot/imported/unknown-god-cube.png-f98aab666900a76ef37e9fa5b6f9aaa4.ctex"]
 
 [params]
 
