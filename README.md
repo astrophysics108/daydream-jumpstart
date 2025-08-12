@@ -1,152 +1,61 @@
-<a id="readme-top"></a>
+# Paimon's journey: a jumpastart-daydream game
 
-<!-- SHIELDS -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
+![image](/plush.png)
 
-<!-- HEADER -->
-<br />
-<div align="center">
-    <a href="https://github.com/BudzioT/Godot_Super-Wakatime">
-        <img src="https://cloud-bo1ln2br1-hack-club-bot.vercel.app/0godotwaka22.png"  alt="Godot Wakatime"/>
-    </a>
-    <h3 align="center"> Godot Super Wakatime </h3>
-    <p align="center">
-        Tool to measure time spent in loved by many people game engine - Godot
-        <br />
-        Officially approved to use in High Seas event created by Hack Club
-        <br />
-        <br />
-        <a href="">Get from Asset Lib</a>
-        ·
-        <a href="https://youtu.be/rqAc-YdVXyM">View Demo</a>
-        ·
-        <a href="https://github.com/BudzioT/Godot_Super-Wakatime/issues/new">Report Bug / Request Feature</a>
-    </p>
-</div>
+Paimon's journey is a simple platformer game where paimon jouneys through various areas in Teyvat and, in true Paimon fashion, eats a whole ton of food XD
 
-<!-- CONTENTS -->
-<details>
-    <summary>Table of Contents</summary>
-    <ol>
-        <li>
-            <a href="#about">About The Project</a>
-            <ul>
-                <li><a href="#built-with">Built Using</a></li>
-            </ul>
-        </li>
-        <li>
-            <a href="#getting-started">Getting Started</a>
-            <ul>
-                <li><a href="#installation">Installation</a></li>
-            </ul>
-        </li>
-        <li><a href="#usage">Usage</a></li>
-        <li><a href="#license">License</a></li>
-    </ol>
-</details>
+You can run around and jump at free will:<br>
+![image](/github-images/jumping.png)
+
+You can eat food, to gain hearts:<br>
+![image](/github-images/eating.png)
+![image](/github-images/eaten.png)
+
+You can also take damage of course, and find the 🚩 to win the game!
 
 
-<!-- ABOUT -->
-## About The Project
-<br />
+**Currently the game has:**
 
-[![Product Screenshot][product-screenshot]](https://waka.hackclub.com)
+* Celestia
+* Mondstadt
+* Basic mechanics for winning, losing, food, and simple static asmoday cubes
 
-This tool can successfully measure time spent building your games or apps in Godot.
-<br />
-Here's why:
-* It differentiates between switching a scene and script
-* It counts key presses as coding and mouse clicks as building scene
-* Changing scene structure results in a heartbeat sent
-* It correctly detects OS, machine name, language, editor, files
-* It can detect your cursor line and position
-* Time is split between: Building, Coding, Testing
-* In the future it will also detect testing your projects
+I hope to both make the game a bit prettier and more pixel-style as well as add more regions (Liyue, Inazuma, Sumeru, Fontaine, etc). I also want to improve the mechanics and the animations, but I haven't been able to do that yet and I do need to get this submitted, so for now it's this basic stuff :D
 
-It works on both Linux and Windows, it wasn't tested on macOS yet
-<br />
-You can also see your time spent in the editor itself:
-[![Time in editor][time-screenshot]]
+## CREDITS 
+Of course I couldn't go without crediting the owners of all of the assets I've used in this game. In the future, most if not all of the assets will be replaced by things I've drawn, but for now to save time I've use these off the internet:
 
-<p align="right">(<a href="#readme-top">top</a>)</p>
+**Logo/Character** <br>
+* Paimon artwork: https://hoyo.global/paimon/
+* Font: https://www.canva.com/
+* The paimon you play with: https://x.com/StickersGenshin/status/1693925282241970680
 
+<br>**Celestia** <br>
+* Background (tiles were a snippet of this bg): https://wallpapercave.com/genshin-impact-4k-pc-wallpapers
+ I used https://photoshop.adobe.com/id to get rid of lumine in the photo 
+* To Teyvat font: https://figma.com
 
-### Built Using
-I used the Ouch! CLI tool for decompression of files <br />
-This project was built using one simple, yet powerful language.<br />
-It required a lot of workarounds, but it was a pleasure to use it
-* [![GDScript][Godot]][Godot-url]
-* [![Ouch!][Ouch-shield]][Ouch-url]
+**Mondstadt**
+* Tileset: https://itch.io/game-assets/free/tag-grass/tag-tilemap (I think)
+* Sweet Madame: https://genshin-impact.fandom.com/wiki/Sweet_Madame
+* Background: https://genshinmall.com/collections/mondstadt?page=2 then expanded the sky using the generative expand on photoshop
 
-<p align="right">(<a href="#readme-top">top</a>)</p>
+**Lost/ win pages**
 
-<!-- GETTING STARTED -->
-## Getting Started
-How to install and use this software? It's easy!
+* Sweet madame: See above 
+* Furina Cake: https://genshin-impact.fandom.com/wiki/%22Pour_la_Justice%22
+* Paimon happy: https://www.redbubble.com/i/sticker/paimon-by-dawnsheep/79899891.EJUG5
+* Paimon sad: https://www.redbubble.com/i/sticker/Genshin-Impact-Paimon-Sticker-by-GodKingRance/63073444.EJUG5
+* Fonts: https://www.canva.com/
+* Loser Background: gameplay screenshot from Genshin Impact: https://genshin.hoyoverse.com/en/
 
-### Installation
-You can either download it from asset lib (will provide a link, once it gets accepted)
-<br />Or you can manually install it, here's how to do it!
-1. Clone the repository
-    ```sh
-    git clone https://github.com/BudzioT/Godot_Super-Wakatime.git
-    ```
-2. Go into your project
-3. Insert the entire `./addons` folder into your project `res://` directory
+**For most of these images, there were multiple versions online and I simply have linked to the version I used. Many images have been modified/ background removed using photoshop. This game is inspired by aspects of HoYoVerse's Genshin Impact**
 
-<p align="right">(<a href="#readme-top">top</a>)</p>
-
-<!-- USAGE -->
-## Usage
-Don't know how to use this plugin? Here are the steps:
-1. Turn on the plugin in your plugins. In your `Project -> Project Settings -> Plugins -> `Click the `Enable` checkbox near this plugin
-2. If prompted for API key, provide it from Wakatime website
-3. if there is an issue with it, please manually create `~/.wakatime.cfg` file with these contents:
-    ```sh
-    [settings]
-    api_key=xxxx
-    ```
-    Where xxxx is your api key
-<br /><br />
-If you are coming from High Seas used this:
-    ```sh
-    [settings]
-    api_url = https://waka.hackclub.com/api
-    api_key=xxxx
-    ```
-4. Wakatime CLI should have been installed automatically along with Ouch! Decompression library
-5. Work on your project! You should see your results on either Wakatime or Hackatime!
-6. You can also see your time at the bottom panel
-
-<p align="right">(<a href="#readme-top">top</a>)</p>
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## Happy Gaming!
 
 
-<!-- URLS -->
-[contributors-shield]: https://img.shields.io/github/contributors/budziot/Godot_Super-Wakatime?style=for-the-badge
-[contributors-url]: https://github.com/BudzioT/Godot_Super-Wakatime/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/budziot/Godot_Super-Wakatime?style=for-the-badge
-[forks-url]: https://github.com/BudzioT/Godot_Super-Wakatime/forks
-[stars-shield]: https://img.shields.io/github/stars/budziot/Godot_Super-Wakatime?style=for-the-badge
-[stars-url]: https://github.com/BudzioT/Godot_Super-Wakatime/stargazers
-[issues-shield]: https://img.shields.io/github/issues/budziot/Godot_Super-Wakatime?style=for-the-badge
-[issues-url]: https://github.com/BudzioT/Godot_Super-Wakatime/issues
-[license-shield]: https://img.shields.io/github/license/budziot/Godot_Super-Wakatime?style=for-the-badge
-[license-url]: https://github.com/BudzioT/Godot_Super-Wakatime/blob/master/addons/godot_super-wakatime/LICENSE
-[product-screenshot]: https://cloud-j4wibbzz7-hack-club-bot.vercel.app/0image.png
-[product-logo]: https://cloud-j4wibbzz7-hack-club-bot.vercel.app/2godotwaka2.png
-[Godot]: https://img.shields.io/badge/Godot%20Engine-478CBF?logo=godotengine&logoColor=fff&style=flat
-[Godot-url]: https://godotengine.org/
-[Ouch-shield]: https://img.shields.io/badge/Ouch!-tool-blue?label=Ouch!
-[Ouch-url]: https://github.com/ouch-org/ouch
-[time-screenshot]: https://cloud-l88kldf50-hack-club-bot.vercel.app/0image.png
+
+
+
+
+
